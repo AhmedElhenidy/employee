@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "201161596797",
+    "project_id": "agaapps-46863",
+    "storage_bucket": "agaapps-46863.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201161596797:android:20ea3a947c2c98dd51f614",
+        "android_client_info": {
+          "package_name": "com.aga_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201161596797-2srd6luegpj8cvham89ei1cno2q20ol5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyk9ES4Cev8PAfSRt1L-QQSo7RLrb1dyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201161596797-2srd6luegpj8cvham89ei1cno2q20ol5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201161596797:android:aa953b941beca72a51f614",
+        "android_client_info": {
+          "package_name": "com.employee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201161596797-2srd6luegpj8cvham89ei1cno2q20ol5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyk9ES4Cev8PAfSRt1L-QQSo7RLrb1dyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201161596797-2srd6luegpj8cvham89ei1cno2q20ol5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
