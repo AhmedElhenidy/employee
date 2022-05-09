@@ -209,7 +209,7 @@ class _ComplainScreenState extends State<ComplainScreen> {
                             type: "شكوى"
                           ),
                           onSuccess: (){
-                            showMyDialog(context, "message");
+                            showSuccessDialog(context, "تم إرسال طلبك بنجاح");
                           },
                           onError: (e){
                             showMyDialog(context, e.toString());

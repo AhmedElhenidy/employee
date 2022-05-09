@@ -4,7 +4,10 @@ import 'package:employee/app/app_helpers.dart';
 import 'package:employee/app/app_padding.dart';
 import 'package:employee/app/app_strings.dart';
 import 'package:employee/presentation/ui/complain_screen.dart';
+import 'package:employee/presentation/ui/splash_screen.dart';
 import 'package:employee/presentation/ui/suggest_screen.dart';
+import 'package:employee/presentation/widgets/global_alert.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class SelectScreen extends StatefulWidget {
@@ -29,6 +32,18 @@ class _SelectScreenState extends State<SelectScreen> {
               fontSize: 20,
               fontWeight: FontWeight.bold
           ),
+        ),
+        leading: IconButton(
+          icon: const Icon(Icons.logout),
+          onPressed: ()async{
+            FirebaseAuth.instance.signOut().then((value){
+              Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (builder)=>SplashScreen()), (route) => false);
+            },
+              onError: (error){
+                showMyDialog(context,error.toString());
+              },
+            );
+          },
         ),
       ),
       resizeToAvoidBottomInset: true,

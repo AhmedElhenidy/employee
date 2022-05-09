@@ -192,7 +192,7 @@ class _SuggestScreenState extends State<SuggestScreen> {
                               type: "مقترح - مبادرة"
                           ),
                           onSuccess: (){
-                            showMyDialog(context, "message");
+                            showSuccessDialog(context, "تم إرسال طلبك بنجاح");
                           },
                           onError: (e){
                             showMyDialog(context, e.toString());
