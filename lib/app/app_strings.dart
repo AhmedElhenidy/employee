@@ -7,7 +7,7 @@ class AppStrings{
   static const send = " إرسال";
   static const complainTitle = "عنوان الشكوى";
   static const complainDesc = "موضوع الشكوى";
-  static const appName = "اسم التطبيق";
+  static const appName = "ركن السعادة";
   static const suggest = "مقترح - مبادرة";
   static const complain = " شكاوى";
   static const complainStatus = "حالة الشكوى";
